@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei',
+    serif;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+}
+
+.percent-count {
+     width: 450px;
+     height: 50px;
+     text-align: center;
+     font-size:30px; 
+     color:#fff;
+     /* make an object centered */
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -moz-transform: translateX(-50%) translateY(-50%);
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     }
+
+.progress-bar {
+    width: 506px;
+    height: 26px;
+    color: white ;
+    background-color: lightseagreen;
+    border-radius: 16px;
+    padding: 2px;
+    margin:50px auto;
+    /* make an object centered */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+   
+}
+.progress {
+    width: 30px;
+    height:26px;
+    border-radius:10px;
+    background-color: dodgerblue;
+}
+footer {
+    color:white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    
+
+}
